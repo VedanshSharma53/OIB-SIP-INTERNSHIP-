@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 325.53 222.13">
+  <defs>
+    <style>.cls-1{fill:url(#linear-gradient);}</style>
+    <linearGradient id="linear-gradient" x1="153.47" y1="73.88" x2="198.01" y2="252.04" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffeb53"/>
+      <stop offset="1" stop-color="#d417c7"/>
+    </linearGradient>
+    <path id="wavepath" d="M 0 2000 0 500 Q 79.5 347 159 500 t 159 0 159 0 159 0 159 0 159 0 159 0 159 0  v1000 z" />
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="OBJECTS">
+      <path class="cls-1" d="M325.53,222.13V0A138.26,138.26,0,0,0,309,12.21C249.5,63.2,266.49,122.69,169.61,155,87.47,182.37,36.63,169.38,0,222.13Z"/>
+    </g>
+  </g>
+  <g>
+    <use xlink:href="#wavepath" y="381" fill="url(#linear-gradient)">
+      <animateMotion dur="5s" repeatCount="indefinite">
+        <mpath xlink:href="#motionpath" />
+      </animateMotion>
+    </use>
+    <path id="motionpath" d="M 0 0 H 325.53" />
+  </g>
+</svg>
